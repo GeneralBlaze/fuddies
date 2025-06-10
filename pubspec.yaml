@@ -1,0 +1,81 @@
+name: fudies
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  provider: ^6.1.5
+
+ 
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^5.0.0
+
+flutter: 
+  assets:
+    - assets/home_icons/chicken.png
+    - assets/home_icons/bakery.png
+    - assets/home_icons/big_promo.png
+    - assets/home_icons/food-tray-1.png
+    - assets/home_icons/near_me.png
+    - assets/home_icons/pizza.png
+    - assets/home_icons/salad.png
+    - assets/home_icons/salad-1.png
+    - assets/home_icons/star-1.png
+    - assets/home_icons/restaurant-1.png
+    - assets/home_icons/24-hours-1.png
+    - assets/home_icons/burger.png
+    - assets/home_icons/more.png
+    - assets/home_icons/navigation-1.png
+    - assets/home_icons/navigation-2.png
+    - assets/home_icons/navigation-3.png
+    - assets/home_icons/navigation-4.png
+    - assets/home_icons/banner-food.png
+    - assets/near_me/bakmi.png
+    - assets/near_me/promo.png
+    - assets/near_me/Map.png
+    - assets/near_me/Character.png
+    - assets/near_me/best-seller.png
+    - assets/near_me/two-wheeler.png
+    - assets/resto/third.png
+    - assets/resto/fourth.png
+    - assets/resto/header.png
+    - assets/resto/ayam.png
+    - assets/resto/kambing.png
+    - assets/resto/map-locate.png
+    - assets/resto/map24.png
+    - assets/resto/shopping-basket-2.png
+
+  fonts:
+  - family: PlusJakartaSans
+    fonts:
+      - asset: assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf
+        weight: 500  
+      - asset: assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf
+        weight: 600
+      - asset: assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf
+        weight: 700   
+      - asset: assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Italic-VariableFont_wght.ttf
+        style: italic
+        weight: 500
+      - asset: assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Italic-VariableFont_wght.ttf
+        style: italic
+        weight: 600
+
+
+
